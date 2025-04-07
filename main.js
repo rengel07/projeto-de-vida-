@@ -4,3 +4,7 @@ const botoes = document.querySelectorAll(".botao");{
     botoes [i].onclik = function (){
     botoes[i].classList.add("ativo");
     }
+
+    botoes[i].onclick = function (){
+        botoes[i].classList.add("ativo");
+        }
